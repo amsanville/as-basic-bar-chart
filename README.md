@@ -3,10 +3,10 @@
 Provides a basic bar chart utility for use in React. See the demo page (https://amsanville.github.io/as-basic-bar-chart/) for examples use.
 
 ## Installation
-Run:
-    npm install --save as-basic-bar-chart
-And include:
-    import {Graph} from 'as-basic-bar-chart';
+Run:\
+    npm install --save as-basic-bar-chart\
+And include:\
+    import {Graph} from 'as-basic-bar-chart';\
 in your React App.
 
 ## Use
