@@ -15,6 +15,7 @@ in your React App.
 
 ## Use
 ![](graph.png)
+
 The graph class automatically creates graphs using flex boxes based on the numerical data you give it. The data should be an Javascript object with keys for labeling the bars and values for the numerical value of the bars. You can then specify which style (vertical or horizontal) with the horizontal property. For a vertical bar graph, a height should be specified and for a horizontal bar graph a width. Finally a title can be added as well. For example, if:
 ```javascript
 data = {
