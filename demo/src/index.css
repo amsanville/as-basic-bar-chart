@@ -1,0 +1,14 @@
+:root{
+  /* Define a palette */
+  --color-primary: #545F66;
+  --color-secondary: #96A7AD;
+  --color-bar-highlight: #D0F4EA;
+  --color-bar-primary: #E8FCC2;
+  --color-bar-secondary: #B1CC74;
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}

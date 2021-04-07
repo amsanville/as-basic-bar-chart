@@ -1,0 +1,19 @@
+.DataVis-graph-vertical-bar{
+    padding: 7px;
+    margin: 5px;
+    color: var(--color-bar-secondary);
+    background-color: var(--color-bar-primary);
+  
+    transition: box-shadow 0.3s;
+  
+    min-height: 10%;
+  }
+  
+  .DataVis-graph-vertical-bar:nth-of-type(even){
+    color: var(--color-bar-primary);
+    background-color: var(--color-bar-secondary);
+  }
+  
+  .DataVis-graph-vertical-bar:hover{
+    box-shadow: 5px 5px var(--color-bar-highlight);
+  }
