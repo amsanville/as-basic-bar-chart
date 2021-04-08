@@ -1,4 +1,5 @@
 # as-basic-bar-chart
+![](graph.png)
 
 Provides a basic bar chart utility for use in React. See the demo page (https://amsanville.github.io/as-basic-bar-chart/) for examples use.
 
@@ -22,8 +23,6 @@ in your React App. And finally, to specify the colors include:
 The above are the colors from the demo. Feel free to choose any color scheme desired. The primary and secondary colors are the two that alternate on the bars. The highlight is for the mouse over effect.
 
 ## Use
-![](graph.png)
-
 The graph class automatically creates graphs using flex boxes based on the numerical data you give it. The data should be an Javascript object with keys for labeling the bars and values for the numerical value of the bars. You can then specify which style (vertical or horizontal) with the horizontal property. For a vertical bar graph, a height should be specified and for a horizontal bar graph a width. Finally a title can be added as well. For example, if:
 ```javascript
 data = {
