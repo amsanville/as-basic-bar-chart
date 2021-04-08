@@ -6,7 +6,7 @@ Provides a basic bar chart utility for use in React. See the demo page (https://
 ## Installation
 Run:
 ```shell
-npm install --save as-basic-bar-chart\
+npm install --save as-basic-bar-chart
 ```
 And include:
 ```javascript
