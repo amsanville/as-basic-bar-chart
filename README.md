@@ -11,7 +11,15 @@ And include:
 ```javascript
 import {Graph} from 'as-basic-bar-chart';
 ```
-in your React App.
+in your React App. And finally, to specify the colors include:
+```css
+:root{
+  --color-bar-highlight: #D0F4EA;
+  --color-bar-primary: #E8FCC2;
+  --color-bar-secondary: #B1CC74;
+}
+```
+The above are the colors from the demo. Feel free to choose any color scheme desired. The primary and secondary colors are the two that alternate on the bars. The highlight is for the mouse over effect.
 
 ## Use
 ![](graph.png)
